@@ -981,7 +981,7 @@
     "@types/expect" "^1.20.4"
     "@types/node" "*"
 
-"@typescript-eslint/eslint-plugin@^6.9.1":
+"@typescript-eslint/eslint-plugin@^6.10.0":
   version "6.10.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.10.0.tgz#cfe2bd34e26d2289212946b96ab19dcad64b661a"
   integrity sha512-uoLj4g2OTL8rfUQVx2AFO1hp/zja1wABJq77P6IclQs6I/m9GLrm7jCdgzZkvWdDCQf1uEvoa8s8CupsgWQgVg==
@@ -998,7 +998,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/parser@^6.9.1":
+"@typescript-eslint/parser@^6.10.0":
   version "6.10.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-6.10.0.tgz#578af79ae7273193b0b6b61a742a2bc8e02f875a"
   integrity sha512-+sZwIj+s+io9ozSxIWbNB5873OSdfeBEH/FR0re14WLI6BaKuSOnnwCJ2foUiu8uXf4dRp1UqHP0vrZ1zXGrog==
@@ -2354,12 +2354,12 @@ escape-string-regexp@^1.0.5:
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
 eslint-config-oclif-typescript@^3:
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/eslint-config-oclif-typescript/-/eslint-config-oclif-typescript-3.0.13.tgz#be9fd042f3e5143963d77c2be8ad78851109b13c"
-  integrity sha512-w+lMp9Wb2mAMJBl+iHWbJYAIVqscctYBMDfJksdy5Mn3jAhQJKsMiDH84KayodTIjQGMcKCgyGALTqkSxvNjaQ==
+  version "3.0.15"
+  resolved "https://registry.yarnpkg.com/eslint-config-oclif-typescript/-/eslint-config-oclif-typescript-3.0.15.tgz#06f5c90614d2b2d7a6af5d6add13cb288c8b4507"
+  integrity sha512-g22VodGIbvdkK2uQQ/tYsqAOKR3B9c+F7HMz+ew1zDU0UEgNtAp4wutbfxa+gzZuQoRrOcU5VkBV+XT1bJJLBQ==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^6.9.1"
-    "@typescript-eslint/parser" "^6.9.1"
+    "@typescript-eslint/eslint-plugin" "^6.10.0"
+    "@typescript-eslint/parser" "^6.10.0"
     eslint-config-xo-space "^0.34.0"
     eslint-import-resolver-typescript "^3.6.1"
     eslint-plugin-import "^2.29.0"
